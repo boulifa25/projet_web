@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>bienvenue</title>
+</head>
+<body>
+    <form action="contact.php" method="get">
+        <label for="name">Nom:</label><br>
+        <input type="text" id="nom" name="nom" required><br>
+        <label for="name">Prenom:</label><br>
+        <input type="text" id="prenom" name="prenom" required><br>
+        <label for="addresse">Adresse:</label><br>
+        <textarea id="adresse" name="adresse"></textarea><br>
+        <label for="email">Email:</label><br>
+        <input  type="email" id="email" name="email" required ><br>
+        <label for="telephone">Telephone:</label><br>
+        <input type="tel" id="telephone" name="telephone" required><br>
+        <label for="postalCode">Code Postal:</label><br>
+        <select id="postalCode" name="postalCode" required>
+            <option value="">Selectionnez votre code postal</option>
+            <option value="75000">75000</option>
+            <option value="75001">75001</option>
+            <option value="75002">75002</option>
+        </select><br>
+        <input type="submit" value="Envoyer">
+        <input type="reset" value="Annuler">
+    </form>
+    
+</body>
+</html>
